@@ -1,0 +1,31 @@
+body {
+    font-family:Raleway;
+    background-color: #91CABA;
+    color: #2C4B42;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:"Bebas Neue";
+    color: #2C4B42;
+    font-size: 80pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color: #2C4B42;
+    border: 2px solid #2C4B42;
+    text-align:center;
+    background-color: #87F5D6;
+    padding: 10px;
+}
+#hero img {
+    width: 300px;
+    height: auto;
+}
+#bio {
+    text-align: center;
+}
+
