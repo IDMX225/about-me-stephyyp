@@ -41,6 +41,8 @@ header {
     #gallery {
     border: 7px solid #2C4B42;
     text-align:center;
+    margin-bottom:2rem;
+
 }
     #gallery img {
         max-width: 100%;
@@ -49,3 +51,32 @@ header {
     #gallery figure {
         text-align:center;
     }
+
+/*Literature*/
+#lit {
+    border: 7px solid #2C4B42;
+    text-align:center;
+
+}
+
+#lit div {
+    padding: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+#lit div p {
+    padding: 0.3rem 0;
+    clear:both;
+}
+
+/*Dropcaps*/
+#lit div p::first-letter {
+    color:#000000;
+    background-image:radial-gradient(#87F5D6, #2C4B42);
+    float:left;
+    font-size: 3rem;
+    line-height: .65;
+    border: 1px outset #2C4B42;
+    box-shadow: 2px 2px 2px #2C4B42;
+    padding: 0.1rem;
+}
