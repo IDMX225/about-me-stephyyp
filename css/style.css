@@ -6,7 +6,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     font-family:"Bebas Neue";
-    color: #2C4B42;
+    color: #000000;
     font-size: 55pt;
 }
 
@@ -16,13 +16,18 @@ h2 {
 
 header {
     text-align:center;
+    
+}
+#main {
+    display: flex;
+
 }
 
 #hero, footer {
-    color: #2C4B42;
+    color: #010202;
     border: 2px solid #2C4B42;
     text-align:center;
-    background-color: #87F5D6;
+    background-color: #c2f587;
     padding: 10px;
 }
 /*Hero Section*/
@@ -32,32 +37,52 @@ header {
 }
 
 /*Bio Section*/
-#bio {
-    text-align: center;
+#bio, #hobbies {
+    display: flex;
+    text-align: left;
+    border: #2C4B42 2px solid;
+    background-color: #c2f587;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #030302;
 }
 
 /*Hobbies Section*/
 section#hobbies {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: left;
+    align-items: left;
+    font-size: 1.5rem;
+    color: #030302;
+ 
+   
 }
-#hobbies ul li:nth-child(odd) {
+#hobbies  {
+    text-align: center;
     color: #57400e;
     list-style-type: square;
 }
 /*Gallery Section*/
+
     #gallery {
-    border: 7px solid #2C4B42;
+    border: 100px solid #c2f587;
     text-align:center;
-    margin-bottom:2rem;
+    margin: 1rem;
+    padding: 1rem;
+
+   
 
 }
     #gallery img {
+        
         max-width: 100%;
     }
+
 
     #gallery figure {
         text-align:center;
@@ -65,14 +90,14 @@ section#hobbies {
 
 /*Literature*/
 #lit {
-    border: 7px solid #2C4B42;
+    border: 10px solid #c2f587;
     text-align:center;
 
 }
 
 #lit div {
     padding: 1rem;
-    max-width: 40rem;
+    max-width: 10rem;
     margin: 0 auto;
 }
 #lit div p {
