@@ -33,6 +33,8 @@
 
         </div>
     </section>
+    
+
 
     <section> 
 
@@ -131,7 +133,64 @@
         </p>
         </div>
     </article>
+    <section id="contact">
+        <h2>
+            Contact Us: </h2>
+            <form id="contactForm" name="ContactForm" method="post" data-nelify="true">
 
+
+            <fieldset>
+                <legend> Contact Form </legend>
+
+                <div id="formElements">
+                <label for="name">Name: (required)</label>
+                <input type="text" id="name" name="name" placeholder="Your name here..." required>
+
+                <label for="email">Email: (required)</label>
+                <input type="email" id="email" name="email" placeholder="Your email here..." required>
+
+                <label for="phone">Phone: (optional)</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number here...">
+
+                <label for="phonetype">Phone Type:</label>
+                <select id="phonetype" name="phonetype">
+                    <option value="none">Select phone type...</option>
+                    <option value="home">Home</option>
+                    <option value="work">Work</option>
+                    <option value="cell">Cell</option>
+                    </select>
+
+                    <label for="message">Message: (optional)</label>
+                    <textarea id="message" name="message" rows="8" placeholder="Your message here..."></textarea>
+
+                    <fieldset>
+                        <legend> Would you like a reply? </legend>
+                        <ul> 
+                            <li>
+                                <input type="radio" id="message-yes" name="reply" value="yes">
+                                <label for="message-yes">
+                                Yes, I would like a reply. </label>
+                            </li>
+                                
+                                <li>
+                                    <input type="radio" id="message-no" name="reply" value="no">
+                                    <label for="message-no">
+                                    No, I do not need a reply. </label>
+                                </li>
+                                    
+                        </ul>
+                    </fieldset>
+
+                    <button type="submit" id="submit">Submit</button>
+
+                </div>                        
+            </fieldset>
+
+
+
+            </form>
+
+    </section>
     <footer>
         <p> © 2025 Stephanie Perdomo. All rights reserved.</p>
     </footer>

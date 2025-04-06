@@ -164,4 +164,8 @@ section#hobbies {
         display: block;
     }
 
+#formElements {
+        display: grid;
+    }
+    
 }
