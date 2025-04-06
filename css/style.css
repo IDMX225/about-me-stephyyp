@@ -166,6 +166,47 @@ section#hobbies {
 
 #formElements {
         display: grid;
-    }
+        row-gap: .5em;
     
+    }
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #2C4B42;
+    color: black;
+}
+
+fieldset {
+    border: 2px solid #2C4B42;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2rem;
+}
+
+legend {
+    background-color: #c2f587;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+    color: black;
+    font-style: bold;
+
+}
+#contact ul {
+    list-style: none;
+    padding:0px;
+}
+#contact li {
+    margin: 1rem;
+}
+#contact button {
+    background-color: #c2f587;
+    color: #2C4B42;
+    border: 1px solid #2C4B42;
+    max-width: 400px;
+    justify-self: center;
 }
