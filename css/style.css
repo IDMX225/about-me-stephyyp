@@ -48,7 +48,7 @@ header {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     border: #2C4B42 2px solid;
     background-color: #c2f587;
     padding: 1rem;
@@ -67,7 +67,7 @@ section#hobbies {
     padding: 1rem;
     margin: 1rem;
     
-    align-items: center;
+    align-items: right;
     font-size: 1.5rem;
     color: #030302;
  
@@ -84,11 +84,11 @@ section#hobbies {
 }
 #video {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    
+    text-align: center;
     justify-content: space-between;
-   
+    color: #57400e;
+    list-style-type: square;
 }
 /*Gallery Section*/
 
@@ -178,6 +178,7 @@ legend {
     font-size: 1rem;
     color: black;
     font-style: bold;
+    
 
 }
 #contact ul {
