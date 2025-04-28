@@ -28,7 +28,7 @@ main {
     background-color: #2C4B42;
     color: #ffffff;
     display: flex;
-    flex-direction: column;
+    
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 2rem;
@@ -95,3 +95,21 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+   .navbar-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .navbar {
+        margin: 0 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;}
+    } 
