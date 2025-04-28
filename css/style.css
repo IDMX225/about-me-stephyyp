@@ -55,7 +55,7 @@ section#hobbies {
     list-style-type: none;
     padding: 1rem;
     margin: 1rem;
-    justify-content: left;
+    
     align-items: left;
     font-size: 1.5rem;
     color: #030302;
@@ -209,4 +209,5 @@ legend {
     border: 1px solid #2C4B42;
     max-width: 400px;
     justify-self: center;
+}
 }
