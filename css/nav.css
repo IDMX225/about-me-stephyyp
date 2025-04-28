@@ -55,6 +55,13 @@ main {
 }
 /* navigation list */
 
+.navbar-links li {
+    list-style: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    
+    display: block;
+}
 
 /*  
  style all a tags in header 
@@ -62,7 +69,15 @@ main {
 */
 
 
-
+.navbar-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    display: inline-block  ;
+}
 
 
 /* 
