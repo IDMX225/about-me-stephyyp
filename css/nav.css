@@ -75,10 +75,20 @@ main {
     font-size: 2rem;
     padding: 0.5rem 1rem;
     letter-spacing: 2px;
-    text-decoration: underline;
+    text-decoration: none;
     display: inline-block  ;
 }
 
+.navbar-links a:hover,
+.navbar-links a:focus {
+    background-color: #57400e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    filter: invert(1);
+    border-radius: 20px;
+    outline: none;
+}
 
 /* 
 media query for non-mobile nav bar
