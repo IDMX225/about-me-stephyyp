@@ -22,7 +22,7 @@ The visual design of this website features an earthy yet refreshing palette that
 * RGB: `(44, 75, 66)`
 * Usage: Headers, navigation bar, and section dividers for a grounded, natural feel.
     ```css
-    /* Example usage in CSS */
+    
     h1, nav {
         background-color: #2C4B42;
     }
@@ -33,7 +33,7 @@ The visual design of this website features an earthy yet refreshing palette that
 * RGB: `(194, 245, 135)`
 * Usage: Accents, highlights, and buttons to bring energy and contrast.
     ```css
-    /* Example usage in CSS */
+    
     .button {
         background-color: #C2F587;
         color: #2C4B42;
@@ -45,7 +45,7 @@ The visual design of this website features an earthy yet refreshing palette that
 * RGB: `(87, 64, 14)`
 * Usage: Text emphasis and borders to reinforce a natural, grounded tone.
     ```css
-    /* Example usage in CSS */
+    
     strong {
         color: #57400E;
     }
@@ -59,7 +59,7 @@ The visual design of this website features an earthy yet refreshing palette that
 * RGB: `(135, 245, 214)`
 * Usage: Backgrounds and secondary sections to keep the layout light and refreshing.
     ```css
-    /* Example usage in CSS */
+   
     body {
         background-color: #87F5D6;
     }
@@ -75,6 +75,9 @@ These colors were implemented using CSS, with consistent styling across the site
 * Stanley, P., & Lin, F.-P. (n.d.). avataaars generator. Retrieved from [https://getavataaars.com/](https://getavataaars.com/)
 * Adobe. (n.d.). Adobe Color Wheel. Retrieved from [https://color.adobe.com/create/color-wheel](https://color.adobe.com/create/color-wheel)
 * (n.d.). Obama Ipsum. Retrieved from [https://obamaipsum.com/](https://obamaipsum.com/)
+* Schneier, Matthew. “Press-On Nails Are Having a Moment.” Allure, Condé Nast, 13 July 2023, www.allure.com/story/press-on-nails-trend.
+* Roberson, Lily. “Why Press-On Nails Are 2023’s Biggest Nail Trend.” Refinery29, Vice Media Group, 22 Feb. 2023, www.refinery29.com/en-us/press-on-nails-trend.
+* Davis, Sarah. “Are Press-On Nails Safe for Your Nails?” Healthline, Healthline Media, 5 Mar. 2023, www.healthline.com/beauty/press-on-nails-safety.
 
 ## License
 
