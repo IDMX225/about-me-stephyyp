@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="icon" href="img/Pink and White Minimalist Professional Initial Logo.png" type="icon/x-icon">
 
     
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -16,17 +18,17 @@
 <header>
     <nav class="navbar">
         <div class="logo">
-             <img src="img\logo-96X96.svg"
+             <img src="img/Pink and White Minimalist Professional Initial Logo.png"
              class="log-img"
-             alt="Blue origami logo">
+             alt="initials/name logo">
         <h1> Web Dev I </h1>
         </div>
-        <div class="navbar-links">
+        <div class="navbar-links" data-aos="fade-right">
             <ul>
                 
                 <li><a href="#bio">Biography</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="#lit">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -35,122 +37,201 @@
 
             <main>
 
-                <section> 
+                <style>
+                    .horizontal-container {
+                      display: flex;
+                      gap: 20px; 
+                      align-items: center; 
+                    }
+                  </style>
+                  
+                  <div class="horizontal-container">
 
-                    <section id="hero"> 
-                    <img src="img\avataaars.png"
-                    alt="My avatar">
+                <section id="hero">
+                <img src="img/IMG_1154.jpg">
+                    
+                        <div class="hero-text" data-aos="zoom-in">
+                            <p class="name">Stephanie Perdomo</p>
+                            <p class="location">Somerset, NJ</p>
+                    </div>
+                  </section>
+                  
+                  <div id="about">
+                    <section id="bio" >
+                    <h2>Biography</h2>
+                    <div class="bio-content">
+                      <p data-aos="zoom-in" data-aos-offset="450" data-aos-easing="ease-in-sine"><strong> My name is Stephanie Perdomo. </strong> I was born in New York City but now proudly call New Jersey home. I’m currently pursuing a career in IT, working toward becoming an IT specialist. Technology has always interested me, and I’m excited to build a future in a field that’s constantly evolving and full of opportunity.
 
-            <div> 
-        <p>Stephanie Perdomo</p>
-        <p>Somerset, NJ</p>
-
+                Before stepping into the tech world, I spent several years working in business development and customer service roles within the automotive industry. Those experiences helped shape my strong communication skills and my passion for helping people—skills I plan to carry with me into my work in IT. I enjoy being part of environments that encourage growth, learning, and meaningful connections.
+                🌱
+            </p>
+          
+        </section>
         </div>
-    </section>
+    </div>
     
 
-
-    <section>
-
-        <hr>
-<div id="main">
-        <section id="bio">
-
-            <h2>Biography</h2>
-
-        <div> 
-            <p> 🌱 I’m currently learning to become an IT specialist! </p>
-
-                <p>   💬 Ask me about fashion/beauty advice. </p>
-
-                    <p>   📫 How to reach me: personal@email.com </p>
-
-                        <p>  😄 Pronouns: she/her </p>
-
-                            <p>   ⚡ Fun fact: I LOVE to travel - I have been to 10 different countries!</p>
-        </div>
-    </section>
-</hr>
-<hr>
     <section id="hobbies">
+        <h2 data-aos="zoom-in">Hobbies</h2>
+        <div class="hobby-container">
+            <p data-aos="zoom-in" data-aos-offset="450" data-aos-easing="ease-in-sine">👗 🌻 🎨 When I’m not working or studying, I love spending time outdoors and exploring new places. Nature is my reset button—whether it’s taking a peaceful walk, enjoying a quiet picnic, or just being outside on a sunny day, it helps me feel centered and refreshed. I really enjoy visiting parks, gardens, and scenic spots where I can slow down and soak it all in.
 
-        <h2>Hobbies</h2>
-        
-                <li>🎨 Visiting museums + traveling </li>
-                    <li>👗 Shopping</li>
-                        <li>🍜 Trying new foods</li>
-                            <li>🎧 Listening to music</li>
-                                <li>🌻 Gardening</li>
+                        I’m also a big fan of museums and cultural experiences. I love learning about history, art, and different perspectives—it’s always inspiring and makes me feel more connected to the world around me.
+                        
+                        And of course, beauty and fashion are my creative outlets. Whether I’m trying out a new makeup look or putting together an outfit, it’s something that brings me joy and lets me express who I am. Between nature, travel, and a bit of style, I try to keep life full of little moments that bring happiness and growth.
+                              
+                     </p>
+                     <ul class="hobby-list">
+                        <li>Nature Walks</li>
+                        <li>Museum Visits</li>
+                        <li>Beauty and Fashion</li>
+                    </ul>
+                </div>
+            </section>
                 
-    </hr>
+    
         
     </section>
+
+    <div class="horizontal-container">
 <hr>
     <section id="video">
 
-        <h2>A Short Video:</h2>
+        <h2 data-aos="zoom-in">A Short Video:</h2>
 
-    
+    <div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/5q9xUmYklPs?si=InAsnJdoF4ugSmMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
-        </div>
-        </div>
+        
+            
+            </section>
 
     <section id="gallery">
 
-        <h2>Photo Gallery</h2>
+        <h2 data-aos="zoom-in">Photo Gallery</h2>
 
         <hr> 
-
-        <figure> 
-            <img src="img\tan-640w.jpg"
-            alt="tanning">
-            <figcaption>Tanning in Puerto Rico</figcaption>
-        </figure>
-
-        <hr>
-
-        <figure>
-            <img src="img\beach-640w.jpg"
-            alt="beach">
-            <figcaption>Beach in the Bahamas</figcaption>
-        </figure>
-
-        <hr>
-
-        <figure>
-            <img src="img\airport-640w.jpg"
-            alt="airport">
-            <figcaption>Stuck at the airport in Dominican Republic</figcaption>
-        </figure>
-    </hr>
-    </section>
-
+        
+        <div class="image-gallery" data-aos="zoom-in">
+            <div class="image-container">
+              <img src="img/tan-640w.jpg" alt="tanning">
+              <div class="overlay">Tanning in Dominican Republic </div>
+            </div>
+            <div class="image-container">
+              <img src="img/beach-640w.jpg" alt="beach">
+              <div class="overlay">The Shore in Puerto Rico</div>
+            </div>
+            <div class="image-container">
+              <img src="img/airport-640w.jpg" alt="airport">
+              <div class="overlay">Stuck at the airport in Mexico</div>
+            </div>
+            
+          </div>
+            </section>
+        </div>
+        <section id="blog">
+            <h3 data-aos="zoom-in"> MY GUIDE TO HIKING: <i>NEW JERSEY</i></H3>
+                 
+        
+            <p data-aos="zoom-in"> New Jersey is home to some of the most beautiful hiking trails in the country. Here are a few of my favorites:
+    
+                <ul data-aos="zoom-in">
+                    <li><strong> Delaware Water Gap National Recreation Area: </strong>This stunning area offers breathtaking views of the Delaware River and surrounding mountains. The Appalachian Trail runs through here, providing plenty of hiking options.</li>
+                    <li><strong> High Point State Park: </strong>Home to the highest point in New Jersey, this park offers panoramic views and a variety of trails for all skill levels.</li>
+                    <li><strong> Watchung Reservation: </strong>Located in Union County, this park features scenic trails, waterfalls, and a beautiful lake.</li>
+                    
+                </ul>
+                <p> Whether you're a seasoned hiker or just looking for a leisurely stroll, New Jersey has something for everyone. So grab your hiking boots and hit the trails!</p>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+     
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/img1.jpg" style="width:100%">
+          <div class="text">Delaware Water Gap National Recreation Area:</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/img2.jpg" style="width:100%">
+          <div class="text">High Point State Park:</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/img3.jpg" style="width:100%">
+          <div class="text">Watchung Reservation:</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    
+        </section>
+    
     <article id="lit">
 
-        <h2> Obama Ipsum </h2>
+        <h2 data-aos="zoom-in" data-aos-offset="450" data-aos-easing="ease-in-sine"> Press-On Nails 2.0: Why They’re Back and Better Than Ever </h2>
 
         <div> 
-            <p> I wanted to be part of something larger. It's that he spoke as if our society was static; as if no progress has been made; as if this country - a country that has made it possible for one of his own members to run for the highest office in the land and build a coalition of white and black; Latino and Asian, rich and poor, young and old - is still irrevocably bound to a tragic past. So let there be no doubt: the situation for the Palestinian people is intolerable.
-        </p>
-        <p> And that man is John Kerry. It is easy to point fingers - for Palestinians to point to the displacement brought by Israel's founding, and for Israelis to point to the constant hostility and attacks throughout its history from within its borders as well as beyond.
-        </p> 
-        <p> We cannot ignore that we have a right and a duty to protect our borders. Those stories - of survival, and freedom, and hope - became our story, my story; the blood that had spilled was our blood, the tears our tears; until this black church, on this bright day, seemed once more a vessel carrying the story of a people into future generations and into a larger world. They are full of dancing, clapping, screaming and shouting that may seem jarring to the untrained ear. It's that he spoke as if our society was static; as if no progress has been made; as if this country - a country that has made it possible for one of his own members to run for the highest office in the land and build a coalition of white and black; Latino and Asian, rich and poor, young and old - is still irrevocably bound to a tragic past. I am grateful to finish this journey with one of the finest statesmen of our time, a man at ease with everyone from world leaders to the conductors on the Amtrak train he still takes home every night.
-        </p>
-        <p>
-        We worship an awesome God in the Blue States, and we don't like federal agents poking around in our libraries in the Red States. The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation. We also know that military power alone is not going to solve the problems in Afghanistan and Pakistan. Indeed, we can recall the words of Thomas Jefferson, who said: "I hope that our wisdom will grow with our power, and teach us that the less we use our power the greater it will be." I know that for many, the face of globalization is contradictory.
-        </p>
-        <p>
-        They are both passed away now. Now even as we speak, there are those who are preparing to divide us, the spin masters, the negative ad peddlers who embrace the politics of anything goes. But that same principle must apply to Muslim perceptions of America.
-        </p>
-        <p>
-        Thank you, and God bless America.
+            Press-on nails have had a major glow-up. Once considered a quick fix, they’re now a go-to beauty trend offering salon-quality looks without the price tag or time commitment. With reusable designs, long-lasting adhesives, and styles that rival pro nail techs, it's easy to see why they're blowing up online.
+
+            <h2 data-aos="zoom-in">Why Everyone's Obsessed</h2>
+            <ul>
+              
+              <li><strong>Reusable:</strong> Many high-end sets can be worn 2–3 times.</li>
+              <li><strong>Affordable:</strong> Save time and money compared to salon visits.</li>
+              <li><strong>Style for Days:</strong> From minimalist to glam, there’s a press-on for you.</li>
+              <li><strong>Easy to Apply:</strong> No skills needed, just press and go.</li>
+                <p> 1. Prep Your Natural Nails
+                    Start with clean, dry hands. Remove any old polish or oils from your nails using rubbing alcohol or a nail prep pad.
+                    👉 Tip: This helps the glue/tabs stick better and last longer.</p>
+                     
+                     <p>2. Push Back Your Cuticles
+                    Use a cuticle pusher to gently push back your cuticles. This gives you a cleaner surface and prevents lifting. </p> </li>
+                    
+                    
+                    <p> 3. Buff and Shape
+                    Lightly buff the surface of your natural nails to remove shine. Shape them with a file to match the press-ons, if needed. </p> </li>
+                    
+                     <p> 4. Find Your Sizes
+                    Lay out all the press-on nails and match each one to your natural nail size. Most kits include extras for a custom fit.
+                    👉 Pro tip: If you’re between sizes, go smaller — it sticks better and looks more natural. </p> </li>
+                    
+                     <p>5. Apply Adhesive </p>
+                    <p> You’ve got two options: </p>
+                    
+                     <p> Nail glue: Apply a drop to your natural nail and the back of the press-on, then press together. </p>
+                    
+                        <p>Adhesive tabs: Peel and stick a tab to your nail, then press on the fake nail. </p>
+                    
+                        <p> 6. Press and Hold </li>
+                   <p>Line up the press-on carefully, then press down firmly for at least 30 seconds. Apply even pressure to avoid bubbles or lifting. </p>
+                    
+                     <p>7. Finish Up
+                        <p>Avoid water or heavy use of your hands for at least an hour after applying. This helps the bond set properly.</li></p>
+            </ul> 
+            <video width="640" height="360" controls>
+  <source src="img/b51d9838f85647a69fcb86118436b6ae.HD-720p-1.6Mbps-40940912 (1).mp4" alt="press-on nails" class="lit-image" data-aos="zoom-in" >
+                
         </p>
         </div>
     </article>
 
-    <section id="contact">
+   
+
+
+    <section id="contact" data-aos="zoom-in">
         <h2> Contact Us: </h2>
 
             <form id="contactForm" name="ContactForm" method="post" data-netlify="true">
@@ -207,9 +288,42 @@
             </form>
 
     </section>
-    <footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <section id="footer">
         <p> © 2025 Stephanie Perdomo. All rights reserved.</p>
     </footer>
-
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Dot controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          const slides = document.getElementsByClassName("mySlides");
+          const dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }    
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";  
+          dots[slideIndex - 1].className += " active";
+        }
+        </script>
 </body>
 </html>
