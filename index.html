@@ -10,6 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section id="AboutMe"></section>
+  <section id="Photos"></section>
+  <section id="Contact"></section>
 </head>
 <body>
 
@@ -22,7 +35,7 @@
              alt="initials/name logo">
         <h1> Web Dev I </h1>
         </div>
-        <div class="navbar-links">
+        <div class="navbar-links" data-aos="fade-right">
             <ul>
                 
                 <li><a href="#bio">Biography</a></li>
@@ -39,27 +52,27 @@
                 <style>
                     .horizontal-container {
                       display: flex;
-                      gap: 20px; /* space between items */
-                      align-items: center; /* optional: aligns vertically */
+                      gap: 20px; 
+                      align-items: center; 
                     }
                   </style>
                   
                   <div class="horizontal-container">
 
                 <section id="hero">
-                    <img src="img/IMG_1154 (1).jpg" alt="My avatar">
+                    <img src="img/IMG_1154 (1).jpg" alt="My avatar" data-aos="zoom-in" data-aos-offset="600" data-aos-easing="ease-in-sine">
                     
-                        <div class="hero-text">
+                        <div class="hero-text" data-aos="zoom-in">
                             <p class="name">Stephanie Perdomo</p>
                             <p class="location">Somerset, NJ</p>
                     </div>
                   </section>
                   
                   <div id="about">
-                    <section id="bio">
+                    <section id="bio" >
                     <h2>Biography</h2>
                     <div class="bio-content">
-                      <p><strong> My name is Stephanie Perdomo. </strong> I was born in New York City but now proudly call New Jersey home. I’m currently pursuing a career in IT, working toward becoming an IT specialist. Technology has always interested me, and I’m excited to build a future in a field that’s constantly evolving and full of opportunity.
+                      <p data-aos="zoom-in" data-aos-offset="450" data-aos-easing="ease-in-sine"><strong> My name is Stephanie Perdomo. </strong> I was born in New York City but now proudly call New Jersey home. I’m currently pursuing a career in IT, working toward becoming an IT specialist. Technology has always interested me, and I’m excited to build a future in a field that’s constantly evolving and full of opportunity.
 
                 Before stepping into the tech world, I spent several years working in business development and customer service roles within the automotive industry. Those experiences helped shape my strong communication skills and my passion for helping people—skills I plan to carry with me into my work in IT. I enjoy being part of environments that encourage growth, learning, and meaningful connections.
                 🌱
@@ -71,16 +84,16 @@
     
 
     <section id="hobbies">
-        <h2>Hobbies</h2>
+        <h2 data-aos="zoom-in">Hobbies</h2>
         <div class="hobby-container">
-            <p>👗 🌻 🎨 When I’m not working or studying, I love spending time outdoors and exploring new places. Nature is my reset button—whether it’s taking a peaceful walk, enjoying a quiet picnic, or just being outside on a sunny day, it helps me feel centered and refreshed. I really enjoy visiting parks, gardens, and scenic spots where I can slow down and soak it all in.
+            <p data-aos="zoom-in" data-aos-offset="450" data-aos-easing="ease-in-sine">👗 🌻 🎨 When I’m not working or studying, I love spending time outdoors and exploring new places. Nature is my reset button—whether it’s taking a peaceful walk, enjoying a quiet picnic, or just being outside on a sunny day, it helps me feel centered and refreshed. I really enjoy visiting parks, gardens, and scenic spots where I can slow down and soak it all in.
 
                         I’m also a big fan of museums and cultural experiences. I love learning about history, art, and different perspectives—it’s always inspiring and makes me feel more connected to the world around me.
                         
                         And of course, beauty and fashion are my creative outlets. Whether I’m trying out a new makeup look or putting together an outfit, it’s something that brings me joy and lets me express who I am. Between nature, travel, and a bit of style, I try to keep life full of little moments that bring happiness and growth.
                               
                      </p>
-                     <ul class="hobby-list">
+                     <ul class="hobby-list"  data-aos="zoom-in" data-aos-offset="450" data-aos-easing="ease-in-sine">
                         <li>Nature Walks</li>
                         <li>Museum Visits</li>
                         <li>Beauty and Fashion</li>
@@ -96,7 +109,7 @@
 <hr>
     <section id="video">
 
-        <h2>A Short Video:</h2>
+        <h2 data-aos="zoom-in">A Short Video:</h2>
 
     <div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/5q9xUmYklPs?si=InAsnJdoF4ugSmMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -108,11 +121,11 @@
 
     <section id="gallery">
 
-        <h2>Photo Gallery</h2>
+        <h2 data-aos="zoom-in">Photo Gallery</h2>
 
         <hr> 
         
-        <div class="image-gallery">
+        <div class="image-gallery" data-aos="zoom-in">
             <div class="image-container">
               <img src="img/tan-640w.jpg" alt="tanning">
               <div class="overlay">Tanning in Dominican Republic </div>
@@ -125,19 +138,68 @@
               <img src="img/airport-640w.jpg" alt="airport">
               <div class="overlay">Stuck at the airport in Mexico</div>
             </div>
+            
           </div>
             </section>
         </div>
-
+        <section id="blog">
+            <h3 data-aos="zoom-in"> MY GUIDE TO HIKING: <i>NEW JERSEY</i></H3>
+                 
+        
+            <p data-aos="zoom-in"><strong> New Jersey is home to some of the most beautiful hiking trails in the country. Here are a few of my favorites:
+            </strong>
+                <ul data-aos="zoom-in">
+                    <li><strong> Delaware Water Gap National Recreation Area: </strong>This stunning area offers breathtaking views of the Delaware River and surrounding mountains. The Appalachian Trail runs through here, providing plenty of hiking options.</li>
+                    <li><strong> High Point State Park: </strong>Home to the highest point in New Jersey, this park offers panoramic views and a variety of trails for all skill levels.</li>
+                    <li><strong> Watchung Reservation: </strong>Located in Union County, this park features scenic trails, waterfalls, and a beautiful lake.</li>
+                    
+                </ul>
+                <p> <strong> Whether you're a seasoned hiker or just looking for a leisurely stroll, New Jersey has something for everyone. So grab your hiking boots and hit the trails!</p>
+                </strong>
+                    <!-- Slideshow container -->
+    <div class="slideshow-container">
+     
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/img1.jpg" style="width:100%">
+          <div class="text">Delaware Water Gap National Recreation Area:</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/img2.jpg" style="width:100%">
+          <div class="text">High Point State Park:</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/img3.jpg" style="width:100%">
+          <div class="text">Watchung Reservation:</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    
+        </section>
     
     <article id="lit">
 
-        <h2> Press-On Nails 2.0: Why They’re Back and Better Than Ever </h2>
+        <h2 data-aos="zoom-in" data-aos-offset="450" data-aos-easing="ease-in-sine"> Press-On Nails 2.0: Why They’re Back and Better Than Ever </h2>
 
         <div> 
-            Press-on nails have had a major glow-up. Once considered a quick fix, they’re now a go-to beauty trend offering salon-quality looks without the price tag or time commitment. With reusable designs, long-lasting adhesives, and styles that rival pro nail techs, it's easy to see why they're blowing up online.
-
-            <h2>Why Everyone's Obsessed</h2>
+            <strong>Press-on nails have had a major glow-up. Once considered a quick fix, they’re now a go-to beauty trend offering salon-quality looks without the price tag or time commitment. With reusable designs, long-lasting adhesives, and styles that rival pro nail techs, it's easy to see why they're blowing up online.
+                </strong>
+            <h2 data-aos="zoom-in">Why Everyone's Obsessed</h2>
             <ul>
               
               <li><strong>Reusable:</strong> Many high-end sets can be worn 2–3 times.</li>
@@ -172,17 +234,17 @@
                      <p>7. Finish Up
                         <p>Avoid water or heavy use of your hands for at least an hour after applying. This helps the bond set properly.</li></p>
             </ul> 
-            <img src="img/200w.gif" alt="press-on nails" class="lit-image">
-                
+            <video width="640" height="360" controls>
+  <source src="img/b51d9838f85647a69fcb86118436b6ae.HD-720p-1.6Mbps-40940912 (1).mp4" alt="press-on nails" class="lit-image" data-aos="zoom-in" type="video/mp4">>
+                </video>
         </p>
         </div>
     </article>
-    <section id="Blog">
-        <h2> Best Places to Hike in New Jersey -- </h2>
-    </section>
+
+   
 
 
-    <section id="contact">
+    <section id="contact" data-aos="zoom-in">
         <h2> Contact Us: </h2>
 
             <form id="contactForm" name="ContactForm" method="post" data-netlify="true">
@@ -239,9 +301,42 @@
             </form>
 
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <section id="footer">
         <p> © 2025 Stephanie Perdomo. All rights reserved.</p>
     </footer>
-
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Dot controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          const slides = document.getElementsByClassName("mySlides");
+          const dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }    
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";  
+          dots[slideIndex - 1].className += " active";
+        }
+        </script>
 </body>
 </html>
